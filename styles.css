@@ -1,0 +1,274 @@
+@font-face {
+    font-family: 'berthold_akzidenz_grotesk_bRg';
+    src: url('berthold_akzidenz_grotesk_be_regular-webfont.woff2') format('woff2'),
+         url('berthold_akzidenz_grotesk_be_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "berthold_akzidenz_grotesk_bRg";
+	color: white;
+	font-size: 14pt;
+}
+
+body {
+	background-color: blue;
+	height: 1000px;
+}
+
+
+
+.levels {
+	list-style: none;
+	width: 110px;
+	height: 40px;
+	display: inline-block;
+	color: white;
+	white-space: nowrap;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: white;
+}
+
+a:active {
+	text-decoration: underline;
+	color: white;
+}
+
+#navbar {
+	position: fixed;
+	bottom: 0px;
+	border: white solid 1px;
+	width: 100%;
+	height: 20px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 20px;
+	background-color: blue;
+	overflow: scroll;
+}
+
+#corp {
+	position: absolute;
+	width: 30px;
+	height: 100%;
+	border: white solid 1px;
+	right: 0px;
+}
+
+.corptext {
+	position: absolute;
+	margin: 0px;
+	height: 20px;
+	width: 400px;
+	padding-bottom: 5px;
+	transform-origin: bottom left;
+	transform: rotate(90deg);
+	z-index: 10;
+}
+
+#levelnav {
+	display: inline;
+
+}
+
+#extra {
+	float: right;
+}
+
+.bodytext {
+	width: 95%;
+	padding-left: 10px;
+	padding-top: 10px;
+	position: absolute;
+}
+
+.video {
+	position: absolute;
+	width: 1370px;
+	height: 700px;
+	top: 10px;
+	left: 10px;
+	border: white solid 1px;
+	z-index: -1;
+
+
+}
+
+.corpmenu {
+	float: right;
+	padding: 0px;
+	margin: 0px;
+	height: 1000px;
+	width: 30px;
+	background-color: blue;
+	border: white solid 1px;
+	z-index: 9
+
+}
+
+.nolist {
+	list-style: none;
+}
+
+.menubox {
+	position: relative;
+	z-index: 10;
+}
+ 
+.alert {
+	font-weight: bolder;
+	width: 100%;
+	height: 500px;
+	position: absolute;
+	font-size: 200px;
+}
+
+#overlay {
+    background:#000;
+    opacity:0.5;
+    /*background:rgba(255,255,255,0.8); or just this*/
+    z-index:50;
+    color:#fff;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: white;
+	color: blue;
+    text-align: center;
+    padding: 5px 0;
+    border:solid 1px blue;
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+.chart{
+	width: 93%;
+	position: absolute;
+}
+
+#alert {
+	margin-top: 500px;	
+	width: 800px;
+	height: 500px;
+	margin: auto;
+	white-space: nowrap;
+	text-align: center;
+	font-size: 100px;
+	display: none;
+}
+
+.blank1 {
+	border: solid black 1px;
+}
+
+.blank1_options {
+	position: absolute;
+	border: 1px solid black;
+	top:70px;
+	left:30px;
+	
+	
+}
+
+.blank1_options:hover {
+	cursor:pointer;
+	background-color: blue;
+	color:white;
+}
+
+.show {
+	display: block;
+}
+
+.optionbox {
+    border: solid black 1px;
+    background-color: white;
+    color: blue;
+    width: 100px;
+	padding: 5px;
+	display: block;
+}
