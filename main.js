@@ -5,9 +5,7 @@ $( document ).ready(function() {
 	var incorrect = 0;
 
     $(".blank1").mouseenter(function(){
-    	$(".op1").addClass(".show");
-        $(".op2").addClass(".show");
-        $(".op3").addClass(".show");
+    	$(".blank1_options").addClass(".show");
         console.log("1")
     });
 

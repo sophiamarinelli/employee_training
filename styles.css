@@ -20,11 +20,23 @@ body {
 	height: 1000px;
 }
 
-
+.extra_wrapper {
+	position: absolute;
+	right: 0px;
+}
 
 .levels {
 	list-style: none;
-	width: 110px;
+	width: 120px;
+	height: 40px;
+	display: inline-block;
+	color: white;
+	white-space: nowrap;
+}
+
+.levels_2 {
+	list-style: none;
+	width: 200px;
 	height: 40px;
 	display: inline-block;
 	color: white;
