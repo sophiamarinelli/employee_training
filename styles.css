@@ -254,12 +254,10 @@ a:active {
 }
 
 .blank1 {
-	border: solid black 1px;
 }
 
 .blank1_options {
 	position: absolute;
-	border: 1px solid black;
 	top:70px;
 	left:30px;
 	display: none;
@@ -276,7 +274,7 @@ a:active {
 }
 
 .optionbox {
-    border: solid black 1px;
+    border: solid blue 1px;
     background-color: white;
     color: blue;
     width: 100px;

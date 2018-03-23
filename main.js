@@ -9,8 +9,22 @@ $( document ).ready(function() {
         console.log("1")
     });
 
-    $(".blank1_options").click(function(){
+    $(".op1").click(function(){
         var $chosenOption = $(".op1").html();
+        $(".blank1").html($chosenOption);
+        $(".blank1_options").removeClass("show");
+        correct++;
+    });
+
+    $(".op2").click(function(){
+        var $chosenOption = $(".op2").html();
+        $(".blank1").html($chosenOption);
+        $(".blank1_options").removeClass("show");
+        correct++;
+    });
+
+    $(".op3").click(function(){
+        var $chosenOption = $(".op3").html();
         $(".blank1").html($chosenOption);
         $(".blank1_options").removeClass("show");
         correct++;
