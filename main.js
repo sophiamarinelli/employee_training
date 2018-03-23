@@ -9,4 +9,11 @@ $( document ).ready(function() {
         console.log("1")
     });
 
+    $(".blank1_options").click(function(){
+        var $chosenOption = $(".op1").html();
+        $(".blank1").html($chosenOption);
+        $(".blank1_options").removeClass("show");
+        correct++;
+    });
+
 });
