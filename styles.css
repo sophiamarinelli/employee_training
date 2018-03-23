@@ -269,6 +269,44 @@ a:active {
 	color: white;
 }
 
+.blank2_options {
+	position: absolute;
+	top: 65px;
+    left: 341px;
+	display: none;
+}
+
+.blank2_options:hover {
+	cursor:pointer;
+	background-color: blue;
+	color: white;
+}
+
+.blank3_options {
+	position: absolute;
+	top: 65px;
+    left: 531px;
+	display: none;
+}
+
+.blank3_options:hover {
+	cursor:pointer;
+	background-color: blue;
+	color: white;
+}
+
+.blank4_options {
+	position: absolute;
+	top: 95px;
+    left: 83px;
+	display: none;
+}
+
+.blank4_options:hover {
+	cursor:pointer;
+	background-color: blue;
+	color: white;
+}
 .show {
 	display: block;
 }
@@ -277,7 +315,9 @@ a:active {
     border: solid blue 1px;
     background-color: white;
     color: blue;
-    width: 100px;
+    width: 115px;
 	padding: 5px;
 }
+
+
 
