@@ -262,14 +262,13 @@ a:active {
 	border: 1px solid black;
 	top:70px;
 	left:30px;
-	
-	
+	display: none;
 }
 
 .blank1_options:hover {
 	cursor:pointer;
 	background-color: blue;
-	color:white;
+	color: white;
 }
 
 .show {
@@ -282,5 +281,5 @@ a:active {
     color: blue;
     width: 100px;
 	padding: 5px;
-	display: none;
 }
+
