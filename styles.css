@@ -113,7 +113,6 @@ a:active {
 	top: 10px;
 	left: 10px;
 	border: white solid 1px;
-	z-index: -1;
 
 
 }
@@ -307,6 +306,111 @@ a:active {
 	background-color: blue;
 	color: white;
 }
+
+.blank5_options {
+	position: absolute;
+	top: 95px;
+    left: 334px;
+	display: none;
+}
+
+.blank5_options:hover {
+	cursor:pointer;
+	background-color: blue;
+	color: white;
+}
+
+.blank6_options {
+	position: absolute;
+	top: 114px;
+    left: 46px;
+	display: none;
+}
+
+.blank6_options:hover {
+	cursor:pointer;
+	background-color: blue;
+	color: white;
+}
+
+.blank7_options {
+	position: absolute;
+	top: 114px;
+    left: 994px;
+	display: none;
+}
+
+.blank7_options:hover {
+	cursor:pointer;
+	background-color: blue;
+	color: white;
+}
+
+.blank8_options {
+	position: absolute;
+	top: 140px;
+    left: 456px;
+	display: none;
+}
+
+.blank8_options:hover {
+	cursor:pointer;
+	background-color: blue;
+	color: white;
+}
+
+.blank9_options {
+	position: absolute;
+	top: 160px;
+    left: 701px;
+	display: none;
+}
+
+.blank9_options:hover {
+	cursor:pointer;
+	background-color: blue;
+	color: white;
+}
+
+.blank10_options {
+	position: absolute;
+	top: 205px;
+    left: 325px;
+	display: none;
+}
+
+.blank10_options:hover {
+	cursor:pointer;
+	background-color: blue;
+	color: white;
+}
+
+.blank11_options {
+	position: absolute;
+	top: 205px;
+   	left: 655px;
+	display: none;
+}
+
+.blank11_options:hover {
+	cursor:pointer;
+	background-color: blue;
+	color: white;
+}
+
+.blank12_options {
+	position: absolute;
+	top: 205px;
+    left: 917px;
+	display: none;
+}
+
+.blank12_options:hover {
+	cursor:pointer;
+	background-color: blue;
+	color: white;
+}
+
 .show {
 	display: block;
 }
@@ -318,6 +422,7 @@ a:active {
     width: 115px;
 	padding: 5px;
 }
+
 
 
 
