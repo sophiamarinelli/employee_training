@@ -411,6 +411,58 @@ a:active {
 	color: white;
 }
 
+.blank13_options {
+	position: absolute;
+	top: 226px;
+    left: 514px;
+	display: none;
+}
+
+.blank13_options:hover {
+	cursor:pointer;
+	background-color: blue;
+	color: white;
+}
+
+.blank14_options {
+	position: absolute;
+	top: 251px;
+    left: 672px;
+	display: none;
+}
+
+.blank14_options:hover {
+	cursor:pointer;
+	background-color: blue;
+	color: white;
+}
+
+.blank15_options {
+	position: absolute;
+	top: 275px;
+    left: 128px;
+	display: none;
+}
+
+.blank15_options:hover {
+	cursor:pointer;
+	background-color: blue;
+	color: white;
+}
+
+.blank16_options {
+	position: absolute;
+	top: 298px;
+    left: 608px;
+	display: none;
+}
+
+.blank16_options:hover {
+	cursor:pointer;
+	background-color: blue;
+	color: white;
+}
+
 .show {
 	display: block;
 }

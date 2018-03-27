@@ -316,4 +316,108 @@ $( document ).ready(function() {
         correct++;
     });
 
+        $(".blank13").mouseenter(function(){
+        $(".blank13_options").addClass("show");
+        console.log("1")
+    });
+
+    $(".op37").click(function(){
+        var $chosenOption = $(".op37").html();
+        $(".blank13").html($chosenOption);
+        $(".blank13_options").removeClass("show");
+        incorrect++;
+    });
+
+    $(".op38").click(function(){
+        var $chosenOption = $(".op38").html();
+        $(".blank13").html($chosenOption);
+        $(".blank13_options").removeClass("show");
+        incorrect++;
+    });
+
+    $(".op39").click(function(){
+        var $chosenOption = $(".op39").html();
+        $(".blank13").html($chosenOption);
+        $(".blank13_options").removeClass("show");
+        correct++;
+    });
+
+        $(".blank14").mouseenter(function(){
+        $(".blank14_options").addClass("show");
+        console.log("1")
+    });
+
+    $(".op40").click(function(){
+        var $chosenOption = $(".op40").html();
+        $(".blank14").html($chosenOption);
+        $(".blank14_options").removeClass("show");
+        incorrect++;
+    });
+
+    $(".op41").click(function(){
+        var $chosenOption = $(".op41").html();
+        $(".blank14").html($chosenOption);
+        $(".blank14_options").removeClass("show");
+        incorrect++;
+    });
+
+    $(".op42").click(function(){
+        var $chosenOption = $(".op42").html();
+        $(".blank14").html($chosenOption);
+        $(".blank14_options").removeClass("show");
+        correct++;
+    });
+
+        $(".blank15").mouseenter(function(){
+        $(".blank15_options").addClass("show");
+        console.log("1")
+    });
+
+    $(".op43").click(function(){
+        var $chosenOption = $(".op43").html();
+        $(".blank15").html($chosenOption);
+        $(".blank15_options").removeClass("show");
+        incorrect++;
+    });
+
+    $(".op44").click(function(){
+        var $chosenOption = $(".op44").html();
+        $(".blank15").html($chosenOption);
+        $(".blank15_options").removeClass("show");
+        incorrect++;
+    });
+
+    $(".op45").click(function(){
+        var $chosenOption = $(".op45").html();
+        $(".blank15").html($chosenOption);
+        $(".blank15_options").removeClass("show");
+        correct++;
+    });
+
+        $(".blank16").mouseenter(function(){
+        $(".blank16_options").addClass("show");
+        console.log("1")
+    });
+
+    $(".op46").click(function(){
+        var $chosenOption = $(".op46").html();
+        $(".blank16").html($chosenOption);
+        $(".blank16_options").removeClass("show");
+        incorrect++;
+    });
+
+    $(".op47").click(function(){
+        var $chosenOption = $(".op47").html();
+        $(".blank16").html($chosenOption);
+        $(".blank16_options").removeClass("show");
+        incorrect++;
+    });
+
+    $(".op48").click(function(){
+        var $chosenOption = $(".op48").html();
+        $(".blank16").html($chosenOption);
+        $(".blank16_options").removeClass("show");
+        correct++;
+    });
+
 });
