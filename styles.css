@@ -475,6 +475,25 @@ a:active {
 	padding: 5px;
 }
 
+.mainnav {
+	width: 95%;
+	height: 500px;
+	margin: auto;
+	list-style: none;
+
+}
+
+.mainnavitem {
+	width: 95%;
+	margin: 15px;
+	height: 30px;
+	border: 1px solid white;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+
+
 
 
 
